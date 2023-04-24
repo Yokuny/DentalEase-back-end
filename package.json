@@ -1,0 +1,41 @@
+{
+  "name": "anamnese-back-end",
+  "description": "back end API for an anamnesis record of dental care",
+  "author": "Yokuny",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "node ./src/app.js",
+    "start": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.3.0",
+    "dayjs": "^1.11.7",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "joi": "^17.9.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [
+    "node",
+    "dentalCare",
+    "api",
+    "restApi",
+    "express"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yokuny/anamnese.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yokuny/anamnese/issues"
+  },
+  "homepage": "https://github.com/Yokuny/anamnese#readme"
+}
